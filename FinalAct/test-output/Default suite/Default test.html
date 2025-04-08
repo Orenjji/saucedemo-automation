@@ -1,0 +1,350 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>54/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Apr 08 08:17:46 PST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>292 seconds (292987 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='vehuelFinalAct.CartPageVerification.verifyContinueShopping()'><b>verifyContinueShopping</b><br>Test class: vehuelFinalAct.CartPageVerification</td>
+<td></td>
+<td>2</td>
+<td>vehuelFinalAct.CartPageVerification@623a8092</td></tr>
+<tr>
+<td title='vehuelFinalAct.CartIconFunctionality.CartCountUpdatesForSingleItem()'><b>CartCountUpdatesForSingleItem</b><br>Test class: vehuelFinalAct.CartIconFunctionality</td>
+<td></td>
+<td>2</td>
+<td>vehuelFinalAct.CartIconFunctionality@a1cdc6d</td></tr>
+<tr>
+<td title='vehuelFinalAct.CheckoutProcess.missingUsername()'><b>missingUsername</b><br>Test class: vehuelFinalAct.CheckoutProcess</td>
+<td></td>
+<td>0</td>
+<td>vehuelFinalAct.CheckoutProcess@175b9425</td></tr>
+<tr>
+<td title='vehuelFinalAct.ProductDetails.goToProductDetailsPage()'><b>goToProductDetailsPage</b><br>Test class: vehuelFinalAct.ProductDetails</td>
+<td></td>
+<td>0</td>
+<td>vehuelFinalAct.ProductDetails@2f465398</td></tr>
+<tr>
+<td title='vehuelFinalAct.ProductList.SortingByPriceDescending()'><b>SortingByPriceDescending</b><br>Test class: vehuelFinalAct.ProductList</td>
+<td></td>
+<td>0</td>
+<td>vehuelFinalAct.ProductList@548e6d58</td></tr>
+<tr>
+<td title='vehuelFinalAct.ProductList.getProducList()'><b>getProducList</b><br>Test class: vehuelFinalAct.ProductList</td>
+<td></td>
+<td>0</td>
+<td>vehuelFinalAct.ProductList@548e6d58</td></tr>
+<tr>
+<td title='vehuelFinalAct.CheckoutOverview.verifyCheckoutOverviewDetails()'><b>verifyCheckoutOverviewDetails</b><br>Test class: vehuelFinalAct.CheckoutOverview</td>
+<td></td>
+<td>0</td>
+<td>vehuelFinalAct.CheckoutOverview@3098cf3b</td></tr>
+<tr>
+<td title='vehuelFinalAct.OrderCompletion.verifyBackHomeButton()'><b>verifyBackHomeButton</b><br>Test class: vehuelFinalAct.OrderCompletion</td>
+<td></td>
+<td>0</td>
+<td>vehuelFinalAct.OrderCompletion@683dbc2c</td></tr>
+<tr>
+<td title='vehuelFinalAct.CartPageVerification.ItemsDetailedDisplayedInCartPage()'><b>ItemsDetailedDisplayedInCartPage</b><br>Test class: vehuelFinalAct.CartPageVerification</td>
+<td></td>
+<td>2</td>
+<td>vehuelFinalAct.CartPageVerification@623a8092</td></tr>
+<tr>
+<td title='vehuelFinalAct.CheckoutProcess.verifyCheckoutWithBlankFields()'><b>verifyCheckoutWithBlankFields</b><br>Test class: vehuelFinalAct.CheckoutProcess</td>
+<td></td>
+<td>0</td>
+<td>vehuelFinalAct.CheckoutProcess@175b9425</td></tr>
+<tr>
+<td title='vehuelFinalAct.ProductList.SortingByPriceAscending()'><b>SortingByPriceAscending</b><br>Test class: vehuelFinalAct.ProductList</td>
+<td></td>
+<td>0</td>
+<td>vehuelFinalAct.ProductList@548e6d58</td></tr>
+<tr>
+<td title='vehuelFinalAct.CartPageVerification.removeMultipleItemsFromCartPage()'><b>removeMultipleItemsFromCartPage</b><br>Test class: vehuelFinalAct.CartPageVerification</td>
+<td></td>
+<td>50</td>
+<td>vehuelFinalAct.CartPageVerification@623a8092</td></tr>
+<tr>
+<td title='vehuelFinalAct.ProductList.getProductPage()'><b>getProductPage</b><br>Test class: vehuelFinalAct.ProductList</td>
+<td></td>
+<td>0</td>
+<td>vehuelFinalAct.ProductList@548e6d58</td></tr>
+<tr>
+<td title='vehuelFinalAct.LoginPage.lockedAccount()'><b>lockedAccount</b><br>Test class: vehuelFinalAct.LoginPage</td>
+<td></td>
+<td>0</td>
+<td>vehuelFinalAct.LoginPage@610f7aa</td></tr>
+<tr>
+<td title='vehuelFinalAct.CheckoutProcess.verifyCancelButtonClicked()'><b>verifyCancelButtonClicked</b><br>Test class: vehuelFinalAct.CheckoutProcess</td>
+<td></td>
+<td>0</td>
+<td>vehuelFinalAct.CheckoutProcess@175b9425</td></tr>
+<tr>
+<td title='vehuelFinalAct.CheckoutProcess.onlyPasswordFilled()'><b>onlyPasswordFilled</b><br>Test class: vehuelFinalAct.CheckoutProcess</td>
+<td></td>
+<td>0</td>
+<td>vehuelFinalAct.CheckoutProcess@175b9425</td></tr>
+<tr>
+<td title='vehuelFinalAct.CartPageVerification.verifyAllProductDetailsDisplayInCart()'><b>verifyAllProductDetailsDisplayInCart</b><br>Test class: vehuelFinalAct.CartPageVerification</td>
+<td></td>
+<td>2</td>
+<td>vehuelFinalAct.CartPageVerification@623a8092</td></tr>
+<tr>
+<td title='vehuelFinalAct.LoginPage.displayedLogin()'><b>displayedLogin</b><br>Test class: vehuelFinalAct.LoginPage</td>
+<td></td>
+<td>0</td>
+<td>vehuelFinalAct.LoginPage@610f7aa</td></tr>
+<tr>
+<td title='vehuelFinalAct.CheckoutOverview.verifyTotalPriceCalculation()'><b>verifyTotalPriceCalculation</b><br>Test class: vehuelFinalAct.CheckoutOverview</td>
+<td></td>
+<td>0</td>
+<td>vehuelFinalAct.CheckoutOverview@3098cf3b</td></tr>
+<tr>
+<td title='vehuelFinalAct.ProductDetails.verifyRemoveButtonWhenItemInCart()'><b>verifyRemoveButtonWhenItemInCart</b><br>Test class: vehuelFinalAct.ProductDetails</td>
+<td></td>
+<td>0</td>
+<td>vehuelFinalAct.ProductDetails@2f465398</td></tr>
+<tr>
+<td title='vehuelFinalAct.CartPageVerification.accessCartPage()'><b>accessCartPage</b><br>Test class: vehuelFinalAct.CartPageVerification</td>
+<td></td>
+<td>2</td>
+<td>vehuelFinalAct.CartPageVerification@623a8092</td></tr>
+<tr>
+<td title='vehuelFinalAct.OrderCompletion.verifyFinishButton()'><b>verifyFinishButton</b><br>Test class: vehuelFinalAct.OrderCompletion</td>
+<td></td>
+<td>0</td>
+<td>vehuelFinalAct.OrderCompletion@683dbc2c</td></tr>
+<tr>
+<td title='vehuelFinalAct.LoginPage.missingUsername()'><b>missingUsername</b><br>Test class: vehuelFinalAct.LoginPage</td>
+<td></td>
+<td>0</td>
+<td>vehuelFinalAct.LoginPage@610f7aa</td></tr>
+<tr>
+<td title='vehuelFinalAct.LoginPage.successLogin()'><b>successLogin</b><br>Test class: vehuelFinalAct.LoginPage</td>
+<td></td>
+<td>0</td>
+<td>vehuelFinalAct.LoginPage@610f7aa</td></tr>
+<tr>
+<td title='vehuelFinalAct.CartPageVerification.verifyProductDisplayInCart()'><b>verifyProductDisplayInCart</b><br>Test class: vehuelFinalAct.CartPageVerification</td>
+<td></td>
+<td>2</td>
+<td>vehuelFinalAct.CartPageVerification@623a8092</td></tr>
+<tr>
+<td title='vehuelFinalAct.ProductDetails.verifyRemoveButtonFunctionality()'><b>verifyRemoveButtonFunctionality</b><br>Test class: vehuelFinalAct.ProductDetails</td>
+<td></td>
+<td>10</td>
+<td>vehuelFinalAct.ProductDetails@2f465398</td></tr>
+<tr>
+<td title='vehuelFinalAct.ProductDetails.verifyAddToCartButtonFunctionality()'><b>verifyAddToCartButtonFunctionality</b><br>Test class: vehuelFinalAct.ProductDetails</td>
+<td></td>
+<td>10</td>
+<td>vehuelFinalAct.ProductDetails@2f465398</td></tr>
+<tr>
+<td title='vehuelFinalAct.CheckoutOverview.verifyCancelButtonRedirectsToProductListing()'><b>verifyCancelButtonRedirectsToProductListing</b><br>Test class: vehuelFinalAct.CheckoutOverview</td>
+<td></td>
+<td>0</td>
+<td>vehuelFinalAct.CheckoutOverview@3098cf3b</td></tr>
+<tr>
+<td title='vehuelFinalAct.CartPageVerification.verifyMultipleProductDisplayInCart()'><b>verifyMultipleProductDisplayInCart</b><br>Test class: vehuelFinalAct.CartPageVerification</td>
+<td></td>
+<td>3</td>
+<td>vehuelFinalAct.CartPageVerification@623a8092</td></tr>
+<tr>
+<td title='vehuelFinalAct.CheckoutProcess.verifyCheckoutInformation()'><b>verifyCheckoutInformation</b><br>Test class: vehuelFinalAct.CheckoutProcess</td>
+<td></td>
+<td>2</td>
+<td>vehuelFinalAct.CheckoutProcess@175b9425</td></tr>
+<tr>
+<td title='vehuelFinalAct.ProductList.SortingByNameAscending()'><b>SortingByNameAscending</b><br>Test class: vehuelFinalAct.ProductList</td>
+<td></td>
+<td>0</td>
+<td>vehuelFinalAct.ProductList@548e6d58</td></tr>
+<tr>
+<td title='vehuelFinalAct.ProductList.AddToCartButton()'><b>AddToCartButton</b><br>Test class: vehuelFinalAct.ProductList</td>
+<td></td>
+<td>0</td>
+<td>vehuelFinalAct.ProductList@548e6d58</td></tr>
+<tr>
+<td title='vehuelFinalAct.OrderCompletion.verifyProceedToCheckoutCompletePage()'><b>verifyProceedToCheckoutCompletePage</b><br>Test class: vehuelFinalAct.OrderCompletion</td>
+<td></td>
+<td>0</td>
+<td>vehuelFinalAct.OrderCompletion@683dbc2c</td></tr>
+<tr>
+<td title='vehuelFinalAct.CheckoutProcess.missingZipCode()'><b>missingZipCode</b><br>Test class: vehuelFinalAct.CheckoutProcess</td>
+<td></td>
+<td>0</td>
+<td>vehuelFinalAct.CheckoutProcess@175b9425</td></tr>
+<tr>
+<td title='vehuelFinalAct.CartPageVerification.removeItemFromCartPage()'><b>removeItemFromCartPage</b><br>Test class: vehuelFinalAct.CartPageVerification</td>
+<td></td>
+<td>22</td>
+<td>vehuelFinalAct.CartPageVerification@623a8092</td></tr>
+<tr>
+<td title='vehuelFinalAct.CartIconFunctionality.getCartPage()'><b>getCartPage</b><br>Test class: vehuelFinalAct.CartIconFunctionality</td>
+<td></td>
+<td>2</td>
+<td>vehuelFinalAct.CartIconFunctionality@a1cdc6d</td></tr>
+<tr>
+<td title='vehuelFinalAct.CheckoutProcess.onlyZipCodeFilled()'><b>onlyZipCodeFilled</b><br>Test class: vehuelFinalAct.CheckoutProcess</td>
+<td></td>
+<td>0</td>
+<td>vehuelFinalAct.CheckoutProcess@175b9425</td></tr>
+<tr>
+<td title='vehuelFinalAct.CheckoutOverview.ItemsDetailedDisplayedInCartPage()'><b>ItemsDetailedDisplayedInCartPage</b><br>Test class: vehuelFinalAct.CheckoutOverview</td>
+<td></td>
+<td>2</td>
+<td>vehuelFinalAct.CheckoutOverview@3098cf3b</td></tr>
+<tr>
+<td title='vehuelFinalAct.CheckoutProcess.allFieldsFilled()'><b>allFieldsFilled</b><br>Test class: vehuelFinalAct.CheckoutProcess</td>
+<td></td>
+<td>0</td>
+<td>vehuelFinalAct.CheckoutProcess@175b9425</td></tr>
+<tr>
+<td title='vehuelFinalAct.LoginPage.missingPassword()'><b>missingPassword</b><br>Test class: vehuelFinalAct.LoginPage</td>
+<td></td>
+<td>0</td>
+<td>vehuelFinalAct.LoginPage@610f7aa</td></tr>
+<tr>
+<td title='vehuelFinalAct.ProductList.SortingByNameDescending()'><b>SortingByNameDescending</b><br>Test class: vehuelFinalAct.ProductList</td>
+<td></td>
+<td>0</td>
+<td>vehuelFinalAct.ProductList@548e6d58</td></tr>
+<tr>
+<td title='vehuelFinalAct.CheckoutOverview.accessOverviewPage()'><b>accessOverviewPage</b><br>Test class: vehuelFinalAct.CheckoutOverview</td>
+<td></td>
+<td>0</td>
+<td>vehuelFinalAct.CheckoutOverview@3098cf3b</td></tr>
+<tr>
+<td title='vehuelFinalAct.CartPageVerification.itemsPersistInCartAfterReLogging()'><b>itemsPersistInCartAfterReLogging</b><br>Test class: vehuelFinalAct.CartPageVerification</td>
+<td></td>
+<td>0</td>
+<td>vehuelFinalAct.CartPageVerification@623a8092</td></tr>
+<tr>
+<td title='vehuelFinalAct.CartIconFunctionality.CartCountUpdatesForMultipleItems()'><b>CartCountUpdatesForMultipleItems</b><br>Test class: vehuelFinalAct.CartIconFunctionality</td>
+<td></td>
+<td>3</td>
+<td>vehuelFinalAct.CartIconFunctionality@a1cdc6d</td></tr>
+<tr>
+<td title='vehuelFinalAct.LoginPage.incorrectUsername()'><b>incorrectUsername</b><br>Test class: vehuelFinalAct.LoginPage</td>
+<td></td>
+<td>0</td>
+<td>vehuelFinalAct.LoginPage@610f7aa</td></tr>
+<tr>
+<td title='vehuelFinalAct.CheckoutProcess.onlyUsernameFilled()'><b>onlyUsernameFilled</b><br>Test class: vehuelFinalAct.CheckoutProcess</td>
+<td></td>
+<td>0</td>
+<td>vehuelFinalAct.CheckoutProcess@175b9425</td></tr>
+<tr>
+<td title='vehuelFinalAct.CartIconFunctionality.HamburgerMenuDisplays()'><b>HamburgerMenuDisplays</b><br>Test class: vehuelFinalAct.CartIconFunctionality</td>
+<td></td>
+<td>2</td>
+<td>vehuelFinalAct.CartIconFunctionality@a1cdc6d</td></tr>
+<tr>
+<td title='vehuelFinalAct.OrderCompletion.verifyRequiredDetailsOnCheckoutCompletePage()'><b>verifyRequiredDetailsOnCheckoutCompletePage</b><br>Test class: vehuelFinalAct.OrderCompletion</td>
+<td></td>
+<td>0</td>
+<td>vehuelFinalAct.OrderCompletion@683dbc2c</td></tr>
+<tr>
+<td title='vehuelFinalAct.ProductDetails.verifyAllRequiredProductDetails()'><b>verifyAllRequiredProductDetails</b><br>Test class: vehuelFinalAct.ProductDetails</td>
+<td></td>
+<td>0</td>
+<td>vehuelFinalAct.ProductDetails@2f465398</td></tr>
+<tr>
+<td title='vehuelFinalAct.LoginPage.incorrectPassword()'><b>incorrectPassword</b><br>Test class: vehuelFinalAct.LoginPage</td>
+<td></td>
+<td>0</td>
+<td>vehuelFinalAct.LoginPage@610f7aa</td></tr>
+<tr>
+<td title='vehuelFinalAct.CartIconFunctionality.SidebarOpenAndCloses()'><b>SidebarOpenAndCloses</b><br>Test class: vehuelFinalAct.CartIconFunctionality</td>
+<td></td>
+<td>5</td>
+<td>vehuelFinalAct.CartIconFunctionality@a1cdc6d</td></tr>
+<tr>
+<td title='vehuelFinalAct.ProductList.ProductListDetailsDisplayed()'><b>ProductListDetailsDisplayed</b><br>Test class: vehuelFinalAct.ProductList</td>
+<td></td>
+<td>0</td>
+<td>vehuelFinalAct.ProductList@548e6d58</td></tr>
+<tr>
+<td title='vehuelFinalAct.CheckoutProcess.verifyCheckoutInformationPage()'><b>verifyCheckoutInformationPage</b><br>Test class: vehuelFinalAct.CheckoutProcess</td>
+<td></td>
+<td>2</td>
+<td>vehuelFinalAct.CheckoutProcess@175b9425</td></tr>
+<tr>
+<td title='vehuelFinalAct.CheckoutProcess.missingPassword()'><b>missingPassword</b><br>Test class: vehuelFinalAct.CheckoutProcess</td>
+<td></td>
+<td>0</td>
+<td>vehuelFinalAct.CheckoutProcess@175b9425</td></tr>
+</table><p>
+</body>
+</html>

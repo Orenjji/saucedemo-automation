@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="54" passed="54" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-08T08:17:46 PST" name="Default suite" finished-at="2025-04-08T08:22:38 PST" duration-ms="292987">
+    <groups>
+    </groups>
+    <test started-at="2025-04-08T08:17:46 PST" name="Default test" finished-at="2025-04-08T08:22:38 PST" duration-ms="292987">
+      <class name="vehuelFinalAct.OrderCompletion">
+        <test-method is-config="true" signature="setup()[pri:0, instance:vehuelFinalAct.OrderCompletion@683dbc2c]" started-at="2025-04-08T08:17:46 PST" name="setup" finished-at="2025-04-08T08:17:46 PST" duration-ms="497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vehuelFinalAct.OrderCompletion@683dbc2c]" started-at="2025-04-08T08:17:46 PST" name="launchApplication" finished-at="2025-04-08T08:17:49 PST" duration-ms="3272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyFinishButton()[pri:1, instance:vehuelFinalAct.OrderCompletion@683dbc2c]" started-at="2025-04-08T08:17:49 PST" name="verifyFinishButton" finished-at="2025-04-08T08:17:50 PST" duration-ms="645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFinishButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vehuelFinalAct.OrderCompletion@683dbc2c]" started-at="2025-04-08T08:17:50 PST" name="tearDown" finished-at="2025-04-08T08:17:50 PST" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vehuelFinalAct.OrderCompletion@683dbc2c]" started-at="2025-04-08T08:17:50 PST" name="launchApplication" finished-at="2025-04-08T08:17:53 PST" duration-ms="2652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyProceedToCheckoutCompletePage()[pri:2, instance:vehuelFinalAct.OrderCompletion@683dbc2c]" started-at="2025-04-08T08:17:53 PST" name="verifyProceedToCheckoutCompletePage" finished-at="2025-04-08T08:17:53 PST" duration-ms="664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProceedToCheckoutCompletePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vehuelFinalAct.OrderCompletion@683dbc2c]" started-at="2025-04-08T08:17:53 PST" name="tearDown" finished-at="2025-04-08T08:17:54 PST" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vehuelFinalAct.OrderCompletion@683dbc2c]" started-at="2025-04-08T08:17:54 PST" name="launchApplication" finished-at="2025-04-08T08:17:56 PST" duration-ms="2506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyRequiredDetailsOnCheckoutCompletePage()[pri:3, instance:vehuelFinalAct.OrderCompletion@683dbc2c]" started-at="2025-04-08T08:17:56 PST" name="verifyRequiredDetailsOnCheckoutCompletePage" finished-at="2025-04-08T08:17:57 PST" duration-ms="673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRequiredDetailsOnCheckoutCompletePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vehuelFinalAct.OrderCompletion@683dbc2c]" started-at="2025-04-08T08:17:57 PST" name="tearDown" finished-at="2025-04-08T08:17:57 PST" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vehuelFinalAct.OrderCompletion@683dbc2c]" started-at="2025-04-08T08:17:57 PST" name="launchApplication" finished-at="2025-04-08T08:17:59 PST" duration-ms="2449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyBackHomeButton()[pri:4, instance:vehuelFinalAct.OrderCompletion@683dbc2c]" started-at="2025-04-08T08:17:59 PST" name="verifyBackHomeButton" finished-at="2025-04-08T08:18:00 PST" duration-ms="696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBackHomeButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vehuelFinalAct.OrderCompletion@683dbc2c]" started-at="2025-04-08T08:18:00 PST" name="tearDown" finished-at="2025-04-08T08:18:00 PST" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- vehuelFinalAct.OrderCompletion -->
+      <class name="vehuelFinalAct.ProductDetails">
+        <test-method is-config="true" signature="setup()[pri:0, instance:vehuelFinalAct.ProductDetails@2f465398]" started-at="2025-04-08T08:18:00 PST" name="setup" finished-at="2025-04-08T08:18:00 PST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vehuelFinalAct.ProductDetails@2f465398]" started-at="2025-04-08T08:18:00 PST" name="launchApplication" finished-at="2025-04-08T08:18:03 PST" duration-ms="2630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="goToProductDetailsPage()[pri:1, instance:vehuelFinalAct.ProductDetails@2f465398]" started-at="2025-04-08T08:18:03 PST" name="goToProductDetailsPage" finished-at="2025-04-08T08:18:03 PST" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToProductDetailsPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vehuelFinalAct.ProductDetails@2f465398]" started-at="2025-04-08T08:18:03 PST" name="tearDown" finished-at="2025-04-08T08:18:03 PST" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vehuelFinalAct.ProductDetails@2f465398]" started-at="2025-04-08T08:18:03 PST" name="launchApplication" finished-at="2025-04-08T08:18:06 PST" duration-ms="2580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyAllRequiredProductDetails()[pri:2, instance:vehuelFinalAct.ProductDetails@2f465398]" started-at="2025-04-08T08:18:06 PST" name="verifyAllRequiredProductDetails" finished-at="2025-04-08T08:18:06 PST" duration-ms="288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllRequiredProductDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vehuelFinalAct.ProductDetails@2f465398]" started-at="2025-04-08T08:18:06 PST" name="tearDown" finished-at="2025-04-08T08:18:06 PST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vehuelFinalAct.ProductDetails@2f465398]" started-at="2025-04-08T08:18:06 PST" name="launchApplication" finished-at="2025-04-08T08:18:09 PST" duration-ms="2463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyRemoveButtonWhenItemInCart()[pri:3, instance:vehuelFinalAct.ProductDetails@2f465398]" started-at="2025-04-08T08:18:09 PST" name="verifyRemoveButtonWhenItemInCart" finished-at="2025-04-08T08:18:09 PST" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRemoveButtonWhenItemInCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vehuelFinalAct.ProductDetails@2f465398]" started-at="2025-04-08T08:18:09 PST" name="tearDown" finished-at="2025-04-08T08:18:09 PST" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vehuelFinalAct.ProductDetails@2f465398]" started-at="2025-04-08T08:18:09 PST" name="launchApplication" finished-at="2025-04-08T08:18:12 PST" duration-ms="2483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyRemoveButtonFunctionality()[pri:4, instance:vehuelFinalAct.ProductDetails@2f465398]" started-at="2025-04-08T08:18:12 PST" name="verifyRemoveButtonFunctionality" finished-at="2025-04-08T08:18:22 PST" duration-ms="10461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRemoveButtonFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vehuelFinalAct.ProductDetails@2f465398]" started-at="2025-04-08T08:18:22 PST" name="tearDown" finished-at="2025-04-08T08:18:22 PST" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vehuelFinalAct.ProductDetails@2f465398]" started-at="2025-04-08T08:18:22 PST" name="launchApplication" finished-at="2025-04-08T08:18:25 PST" duration-ms="2564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyAddToCartButtonFunctionality()[pri:5, instance:vehuelFinalAct.ProductDetails@2f465398]" started-at="2025-04-08T08:18:25 PST" name="verifyAddToCartButtonFunctionality" finished-at="2025-04-08T08:18:35 PST" duration-ms="10352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddToCartButtonFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vehuelFinalAct.ProductDetails@2f465398]" started-at="2025-04-08T08:18:35 PST" name="tearDown" finished-at="2025-04-08T08:18:35 PST" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- vehuelFinalAct.ProductDetails -->
+      <class name="vehuelFinalAct.ProductList">
+        <test-method is-config="true" signature="setup()[pri:0, instance:vehuelFinalAct.ProductList@548e6d58]" started-at="2025-04-08T08:18:35 PST" name="setup" finished-at="2025-04-08T08:18:35 PST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vehuelFinalAct.ProductList@548e6d58]" started-at="2025-04-08T08:18:35 PST" name="launchApplication" finished-at="2025-04-08T08:18:38 PST" duration-ms="2588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="AddToCartButton()[pri:0, instance:vehuelFinalAct.ProductList@548e6d58]" started-at="2025-04-08T08:18:38 PST" name="AddToCartButton" finished-at="2025-04-08T08:18:38 PST" duration-ms="633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddToCartButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vehuelFinalAct.ProductList@548e6d58]" started-at="2025-04-08T08:18:38 PST" name="tearDown" finished-at="2025-04-08T08:18:39 PST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vehuelFinalAct.ProductList@548e6d58]" started-at="2025-04-08T08:18:39 PST" name="launchApplication" finished-at="2025-04-08T08:18:41 PST" duration-ms="2606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ProductListDetailsDisplayed()[pri:0, instance:vehuelFinalAct.ProductList@548e6d58]" started-at="2025-04-08T08:18:41 PST" name="ProductListDetailsDisplayed" finished-at="2025-04-08T08:18:42 PST" duration-ms="338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductListDetailsDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vehuelFinalAct.ProductList@548e6d58]" started-at="2025-04-08T08:18:42 PST" name="tearDown" finished-at="2025-04-08T08:18:42 PST" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vehuelFinalAct.ProductList@548e6d58]" started-at="2025-04-08T08:18:42 PST" name="launchApplication" finished-at="2025-04-08T08:18:44 PST" duration-ms="2465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="SortingByNameAscending()[pri:0, instance:vehuelFinalAct.ProductList@548e6d58]" started-at="2025-04-08T08:18:44 PST" name="SortingByNameAscending" finished-at="2025-04-08T08:18:44 PST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SortingByNameAscending -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vehuelFinalAct.ProductList@548e6d58]" started-at="2025-04-08T08:18:44 PST" name="tearDown" finished-at="2025-04-08T08:18:44 PST" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vehuelFinalAct.ProductList@548e6d58]" started-at="2025-04-08T08:18:44 PST" name="launchApplication" finished-at="2025-04-08T08:18:47 PST" duration-ms="2577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="SortingByNameDescending()[pri:0, instance:vehuelFinalAct.ProductList@548e6d58]" started-at="2025-04-08T08:18:47 PST" name="SortingByNameDescending" finished-at="2025-04-08T08:18:47 PST" duration-ms="286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SortingByNameDescending -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vehuelFinalAct.ProductList@548e6d58]" started-at="2025-04-08T08:18:47 PST" name="tearDown" finished-at="2025-04-08T08:18:47 PST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vehuelFinalAct.ProductList@548e6d58]" started-at="2025-04-08T08:18:47 PST" name="launchApplication" finished-at="2025-04-08T08:18:50 PST" duration-ms="2435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="SortingByPriceAscending()[pri:0, instance:vehuelFinalAct.ProductList@548e6d58]" started-at="2025-04-08T08:18:50 PST" name="SortingByPriceAscending" finished-at="2025-04-08T08:18:50 PST" duration-ms="272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SortingByPriceAscending -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vehuelFinalAct.ProductList@548e6d58]" started-at="2025-04-08T08:18:50 PST" name="tearDown" finished-at="2025-04-08T08:18:50 PST" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vehuelFinalAct.ProductList@548e6d58]" started-at="2025-04-08T08:18:50 PST" name="launchApplication" finished-at="2025-04-08T08:18:53 PST" duration-ms="2465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="SortingByPriceDescending()[pri:0, instance:vehuelFinalAct.ProductList@548e6d58]" started-at="2025-04-08T08:18:53 PST" name="SortingByPriceDescending" finished-at="2025-04-08T08:18:53 PST" duration-ms="267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SortingByPriceDescending -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vehuelFinalAct.ProductList@548e6d58]" started-at="2025-04-08T08:18:53 PST" name="tearDown" finished-at="2025-04-08T08:18:53 PST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vehuelFinalAct.ProductList@548e6d58]" started-at="2025-04-08T08:18:53 PST" name="launchApplication" finished-at="2025-04-08T08:18:56 PST" duration-ms="2493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="getProducList()[pri:0, instance:vehuelFinalAct.ProductList@548e6d58]" started-at="2025-04-08T08:18:56 PST" name="getProducList" finished-at="2025-04-08T08:18:56 PST" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProducList -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vehuelFinalAct.ProductList@548e6d58]" started-at="2025-04-08T08:18:56 PST" name="tearDown" finished-at="2025-04-08T08:18:56 PST" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vehuelFinalAct.ProductList@548e6d58]" started-at="2025-04-08T08:18:56 PST" name="launchApplication" finished-at="2025-04-08T08:18:59 PST" duration-ms="2548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="getProductPage()[pri:0, instance:vehuelFinalAct.ProductList@548e6d58]" started-at="2025-04-08T08:18:59 PST" name="getProductPage" finished-at="2025-04-08T08:18:59 PST" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProductPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vehuelFinalAct.ProductList@548e6d58]" started-at="2025-04-08T08:18:59 PST" name="tearDown" finished-at="2025-04-08T08:18:59 PST" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- vehuelFinalAct.ProductList -->
+      <class name="vehuelFinalAct.CartPageVerification">
+        <test-method is-config="true" signature="setup()[pri:0, instance:vehuelFinalAct.CartPageVerification@623a8092]" started-at="2025-04-08T08:18:59 PST" name="setup" finished-at="2025-04-08T08:18:59 PST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vehuelFinalAct.CartPageVerification@623a8092]" started-at="2025-04-08T08:18:59 PST" name="launchApplication" finished-at="2025-04-08T08:19:01 PST" duration-ms="2446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="accessCartPage()[pri:1, instance:vehuelFinalAct.CartPageVerification@623a8092]" started-at="2025-04-08T08:19:01 PST" name="accessCartPage" finished-at="2025-04-08T08:19:03 PST" duration-ms="2204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accessCartPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vehuelFinalAct.CartPageVerification@623a8092]" started-at="2025-04-08T08:19:03 PST" name="tearDown" finished-at="2025-04-08T08:19:04 PST" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vehuelFinalAct.CartPageVerification@623a8092]" started-at="2025-04-08T08:19:04 PST" name="launchApplication" finished-at="2025-04-08T08:19:06 PST" duration-ms="2486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ItemsDetailedDisplayedInCartPage()[pri:2, instance:vehuelFinalAct.CartPageVerification@623a8092]" started-at="2025-04-08T08:19:06 PST" name="ItemsDetailedDisplayedInCartPage" finished-at="2025-04-08T08:19:08 PST" duration-ms="2307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ItemsDetailedDisplayedInCartPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vehuelFinalAct.CartPageVerification@623a8092]" started-at="2025-04-08T08:19:08 PST" name="tearDown" finished-at="2025-04-08T08:19:09 PST" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vehuelFinalAct.CartPageVerification@623a8092]" started-at="2025-04-08T08:19:09 PST" name="launchApplication" finished-at="2025-04-08T08:19:11 PST" duration-ms="2496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyContinueShopping()[pri:3, instance:vehuelFinalAct.CartPageVerification@623a8092]" started-at="2025-04-08T08:19:11 PST" name="verifyContinueShopping" finished-at="2025-04-08T08:19:13 PST" duration-ms="2362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContinueShopping -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vehuelFinalAct.CartPageVerification@623a8092]" started-at="2025-04-08T08:19:13 PST" name="tearDown" finished-at="2025-04-08T08:19:14 PST" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vehuelFinalAct.CartPageVerification@623a8092]" started-at="2025-04-08T08:19:14 PST" name="launchApplication" finished-at="2025-04-08T08:19:16 PST" duration-ms="2486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyProductDisplayInCart()[pri:4, instance:vehuelFinalAct.CartPageVerification@623a8092]" started-at="2025-04-08T08:19:16 PST" name="verifyProductDisplayInCart" finished-at="2025-04-08T08:19:18 PST" duration-ms="2273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductDisplayInCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vehuelFinalAct.CartPageVerification@623a8092]" started-at="2025-04-08T08:19:18 PST" name="tearDown" finished-at="2025-04-08T08:19:19 PST" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vehuelFinalAct.CartPageVerification@623a8092]" started-at="2025-04-08T08:19:19 PST" name="launchApplication" finished-at="2025-04-08T08:19:21 PST" duration-ms="2383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyMultipleProductDisplayInCart()[pri:5, instance:vehuelFinalAct.CartPageVerification@623a8092]" started-at="2025-04-08T08:19:21 PST" name="verifyMultipleProductDisplayInCart" finished-at="2025-04-08T08:19:24 PST" duration-ms="3446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMultipleProductDisplayInCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vehuelFinalAct.CartPageVerification@623a8092]" started-at="2025-04-08T08:19:24 PST" name="tearDown" finished-at="2025-04-08T08:19:25 PST" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vehuelFinalAct.CartPageVerification@623a8092]" started-at="2025-04-08T08:19:25 PST" name="launchApplication" finished-at="2025-04-08T08:19:27 PST" duration-ms="2491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyAllProductDetailsDisplayInCart()[pri:6, instance:vehuelFinalAct.CartPageVerification@623a8092]" started-at="2025-04-08T08:19:27 PST" name="verifyAllProductDetailsDisplayInCart" finished-at="2025-04-08T08:19:29 PST" duration-ms="2304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllProductDetailsDisplayInCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vehuelFinalAct.CartPageVerification@623a8092]" started-at="2025-04-08T08:19:29 PST" name="tearDown" finished-at="2025-04-08T08:19:30 PST" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vehuelFinalAct.CartPageVerification@623a8092]" started-at="2025-04-08T08:19:30 PST" name="launchApplication" finished-at="2025-04-08T08:19:33 PST" duration-ms="3036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="removeItemFromCartPage()[pri:7, instance:vehuelFinalAct.CartPageVerification@623a8092]" started-at="2025-04-08T08:19:33 PST" name="removeItemFromCartPage" finished-at="2025-04-08T08:19:55 PST" duration-ms="22477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeItemFromCartPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vehuelFinalAct.CartPageVerification@623a8092]" started-at="2025-04-08T08:19:55 PST" name="tearDown" finished-at="2025-04-08T08:19:55 PST" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vehuelFinalAct.CartPageVerification@623a8092]" started-at="2025-04-08T08:19:55 PST" name="launchApplication" finished-at="2025-04-08T08:19:58 PST" duration-ms="2480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="removeMultipleItemsFromCartPage()[pri:8, instance:vehuelFinalAct.CartPageVerification@623a8092]" started-at="2025-04-08T08:19:58 PST" name="removeMultipleItemsFromCartPage" finished-at="2025-04-08T08:20:48 PST" duration-ms="50780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeMultipleItemsFromCartPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vehuelFinalAct.CartPageVerification@623a8092]" started-at="2025-04-08T08:20:48 PST" name="tearDown" finished-at="2025-04-08T08:20:49 PST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vehuelFinalAct.CartPageVerification@623a8092]" started-at="2025-04-08T08:20:49 PST" name="launchApplication" finished-at="2025-04-08T08:20:51 PST" duration-ms="2545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="itemsPersistInCartAfterReLogging()[pri:9, instance:vehuelFinalAct.CartPageVerification@623a8092]" started-at="2025-04-08T08:20:51 PST" name="itemsPersistInCartAfterReLogging" finished-at="2025-04-08T08:20:52 PST" duration-ms="960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemsPersistInCartAfterReLogging -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vehuelFinalAct.CartPageVerification@623a8092]" started-at="2025-04-08T08:20:52 PST" name="tearDown" finished-at="2025-04-08T08:20:52 PST" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- vehuelFinalAct.CartPageVerification -->
+      <class name="vehuelFinalAct.CartIconFunctionality">
+        <test-method is-config="true" signature="setup()[pri:0, instance:vehuelFinalAct.CartIconFunctionality@a1cdc6d]" started-at="2025-04-08T08:20:52 PST" name="setup" finished-at="2025-04-08T08:20:52 PST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vehuelFinalAct.CartIconFunctionality@a1cdc6d]" started-at="2025-04-08T08:20:52 PST" name="launchApplication" finished-at="2025-04-08T08:20:55 PST" duration-ms="2552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="getCartPage()[pri:1, instance:vehuelFinalAct.CartIconFunctionality@a1cdc6d]" started-at="2025-04-08T08:20:55 PST" name="getCartPage" finished-at="2025-04-08T08:20:57 PST" duration-ms="2211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCartPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vehuelFinalAct.CartIconFunctionality@a1cdc6d]" started-at="2025-04-08T08:20:57 PST" name="tearDown" finished-at="2025-04-08T08:20:57 PST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vehuelFinalAct.CartIconFunctionality@a1cdc6d]" started-at="2025-04-08T08:20:57 PST" name="launchApplication" finished-at="2025-04-08T08:20:59 PST" duration-ms="2414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="CartCountUpdatesForSingleItem()[pri:2, instance:vehuelFinalAct.CartIconFunctionality@a1cdc6d]" started-at="2025-04-08T08:20:59 PST" name="CartCountUpdatesForSingleItem" finished-at="2025-04-08T08:21:02 PST" duration-ms="2304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CartCountUpdatesForSingleItem -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vehuelFinalAct.CartIconFunctionality@a1cdc6d]" started-at="2025-04-08T08:21:02 PST" name="tearDown" finished-at="2025-04-08T08:21:02 PST" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vehuelFinalAct.CartIconFunctionality@a1cdc6d]" started-at="2025-04-08T08:21:02 PST" name="launchApplication" finished-at="2025-04-08T08:21:04 PST" duration-ms="2420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="CartCountUpdatesForMultipleItems()[pri:3, instance:vehuelFinalAct.CartIconFunctionality@a1cdc6d]" started-at="2025-04-08T08:21:04 PST" name="CartCountUpdatesForMultipleItems" finished-at="2025-04-08T08:21:08 PST" duration-ms="3298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CartCountUpdatesForMultipleItems -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vehuelFinalAct.CartIconFunctionality@a1cdc6d]" started-at="2025-04-08T08:21:08 PST" name="tearDown" finished-at="2025-04-08T08:21:08 PST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vehuelFinalAct.CartIconFunctionality@a1cdc6d]" started-at="2025-04-08T08:21:08 PST" name="launchApplication" finished-at="2025-04-08T08:21:10 PST" duration-ms="2468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="HamburgerMenuDisplays()[pri:4, instance:vehuelFinalAct.CartIconFunctionality@a1cdc6d]" started-at="2025-04-08T08:21:10 PST" name="HamburgerMenuDisplays" finished-at="2025-04-08T08:21:13 PST" duration-ms="2803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HamburgerMenuDisplays -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vehuelFinalAct.CartIconFunctionality@a1cdc6d]" started-at="2025-04-08T08:21:13 PST" name="tearDown" finished-at="2025-04-08T08:21:13 PST" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vehuelFinalAct.CartIconFunctionality@a1cdc6d]" started-at="2025-04-08T08:21:13 PST" name="launchApplication" finished-at="2025-04-08T08:21:16 PST" duration-ms="2716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="SidebarOpenAndCloses()[pri:5, instance:vehuelFinalAct.CartIconFunctionality@a1cdc6d]" started-at="2025-04-08T08:21:16 PST" name="SidebarOpenAndCloses" finished-at="2025-04-08T08:21:22 PST" duration-ms="5852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SidebarOpenAndCloses -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vehuelFinalAct.CartIconFunctionality@a1cdc6d]" started-at="2025-04-08T08:21:22 PST" name="tearDown" finished-at="2025-04-08T08:21:22 PST" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- vehuelFinalAct.CartIconFunctionality -->
+      <class name="vehuelFinalAct.CheckoutOverview">
+        <test-method is-config="true" signature="setup()[pri:0, instance:vehuelFinalAct.CheckoutOverview@3098cf3b]" started-at="2025-04-08T08:22:00 PST" name="setup" finished-at="2025-04-08T08:22:00 PST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vehuelFinalAct.CheckoutOverview@3098cf3b]" started-at="2025-04-08T08:22:00 PST" name="launchApplication" finished-at="2025-04-08T08:22:03 PST" duration-ms="2609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="accessOverviewPage()[pri:1, instance:vehuelFinalAct.CheckoutOverview@3098cf3b]" started-at="2025-04-08T08:22:03 PST" name="accessOverviewPage" finished-at="2025-04-08T08:22:03 PST" duration-ms="557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accessOverviewPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vehuelFinalAct.CheckoutOverview@3098cf3b]" started-at="2025-04-08T08:22:03 PST" name="tearDown" finished-at="2025-04-08T08:22:03 PST" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vehuelFinalAct.CheckoutOverview@3098cf3b]" started-at="2025-04-08T08:22:03 PST" name="launchApplication" finished-at="2025-04-08T08:22:06 PST" duration-ms="2577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyCheckoutOverviewDetails()[pri:2, instance:vehuelFinalAct.CheckoutOverview@3098cf3b]" started-at="2025-04-08T08:22:06 PST" name="verifyCheckoutOverviewDetails" finished-at="2025-04-08T08:22:07 PST" duration-ms="583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckoutOverviewDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vehuelFinalAct.CheckoutOverview@3098cf3b]" started-at="2025-04-08T08:22:07 PST" name="tearDown" finished-at="2025-04-08T08:22:07 PST" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vehuelFinalAct.CheckoutOverview@3098cf3b]" started-at="2025-04-08T08:22:07 PST" name="launchApplication" finished-at="2025-04-08T08:22:09 PST" duration-ms="2629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyCancelButtonRedirectsToProductListing()[pri:3, instance:vehuelFinalAct.CheckoutOverview@3098cf3b]" started-at="2025-04-08T08:22:09 PST" name="verifyCancelButtonRedirectsToProductListing" finished-at="2025-04-08T08:22:10 PST" duration-ms="611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCancelButtonRedirectsToProductListing -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vehuelFinalAct.CheckoutOverview@3098cf3b]" started-at="2025-04-08T08:22:10 PST" name="tearDown" finished-at="2025-04-08T08:22:10 PST" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vehuelFinalAct.CheckoutOverview@3098cf3b]" started-at="2025-04-08T08:22:10 PST" name="launchApplication" finished-at="2025-04-08T08:22:13 PST" duration-ms="2585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ItemsDetailedDisplayedInCartPage()[pri:4, instance:vehuelFinalAct.CheckoutOverview@3098cf3b]" started-at="2025-04-08T08:22:13 PST" name="ItemsDetailedDisplayedInCartPage" finished-at="2025-04-08T08:22:15 PST" duration-ms="2546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ItemsDetailedDisplayedInCartPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vehuelFinalAct.CheckoutOverview@3098cf3b]" started-at="2025-04-08T08:22:15 PST" name="tearDown" finished-at="2025-04-08T08:22:15 PST" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vehuelFinalAct.CheckoutOverview@3098cf3b]" started-at="2025-04-08T08:22:15 PST" name="launchApplication" finished-at="2025-04-08T08:22:18 PST" duration-ms="2554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyTotalPriceCalculation()[pri:5, instance:vehuelFinalAct.CheckoutOverview@3098cf3b]" started-at="2025-04-08T08:22:18 PST" name="verifyTotalPriceCalculation" finished-at="2025-04-08T08:22:18 PST" duration-ms="588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTotalPriceCalculation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vehuelFinalAct.CheckoutOverview@3098cf3b]" started-at="2025-04-08T08:22:18 PST" name="tearDown" finished-at="2025-04-08T08:22:19 PST" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- vehuelFinalAct.CheckoutOverview -->
+      <class name="vehuelFinalAct.CheckoutProcess">
+        <test-method is-config="true" signature="setup()[pri:0, instance:vehuelFinalAct.CheckoutProcess@175b9425]" started-at="2025-04-08T08:21:22 PST" name="setup" finished-at="2025-04-08T08:21:22 PST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vehuelFinalAct.CheckoutProcess@175b9425]" started-at="2025-04-08T08:21:22 PST" name="launchApplication" finished-at="2025-04-08T08:21:24 PST" duration-ms="2476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyCheckoutInformationPage()[pri:1, instance:vehuelFinalAct.CheckoutProcess@175b9425]" started-at="2025-04-08T08:21:24 PST" name="verifyCheckoutInformationPage" finished-at="2025-04-08T08:21:27 PST" duration-ms="2341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckoutInformationPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vehuelFinalAct.CheckoutProcess@175b9425]" started-at="2025-04-08T08:21:27 PST" name="tearDown" finished-at="2025-04-08T08:21:27 PST" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vehuelFinalAct.CheckoutProcess@175b9425]" started-at="2025-04-08T08:21:27 PST" name="launchApplication" finished-at="2025-04-08T08:21:30 PST" duration-ms="2599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyCheckoutInformation()[pri:2, instance:vehuelFinalAct.CheckoutProcess@175b9425]" started-at="2025-04-08T08:21:30 PST" name="verifyCheckoutInformation" finished-at="2025-04-08T08:21:32 PST" duration-ms="2433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckoutInformation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vehuelFinalAct.CheckoutProcess@175b9425]" started-at="2025-04-08T08:21:32 PST" name="tearDown" finished-at="2025-04-08T08:21:32 PST" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vehuelFinalAct.CheckoutProcess@175b9425]" started-at="2025-04-08T08:21:32 PST" name="launchApplication" finished-at="2025-04-08T08:21:35 PST" duration-ms="2406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyCancelButtonClicked()[pri:3, instance:vehuelFinalAct.CheckoutProcess@175b9425]" started-at="2025-04-08T08:21:35 PST" name="verifyCancelButtonClicked" finished-at="2025-04-08T08:21:35 PST" duration-ms="361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCancelButtonClicked -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vehuelFinalAct.CheckoutProcess@175b9425]" started-at="2025-04-08T08:21:35 PST" name="tearDown" finished-at="2025-04-08T08:21:35 PST" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vehuelFinalAct.CheckoutProcess@175b9425]" started-at="2025-04-08T08:21:35 PST" name="launchApplication" finished-at="2025-04-08T08:21:38 PST" duration-ms="2506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyCheckoutWithBlankFields()[pri:4, instance:vehuelFinalAct.CheckoutProcess@175b9425]" started-at="2025-04-08T08:21:38 PST" name="verifyCheckoutWithBlankFields" finished-at="2025-04-08T08:21:38 PST" duration-ms="369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckoutWithBlankFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vehuelFinalAct.CheckoutProcess@175b9425]" started-at="2025-04-08T08:21:38 PST" name="tearDown" finished-at="2025-04-08T08:21:38 PST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vehuelFinalAct.CheckoutProcess@175b9425]" started-at="2025-04-08T08:21:38 PST" name="launchApplication" finished-at="2025-04-08T08:21:41 PST" duration-ms="2675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="missingUsername()[pri:5, instance:vehuelFinalAct.CheckoutProcess@175b9425]" started-at="2025-04-08T08:21:41 PST" name="missingUsername" finished-at="2025-04-08T08:21:41 PST" duration-ms="552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- missingUsername -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vehuelFinalAct.CheckoutProcess@175b9425]" started-at="2025-04-08T08:21:41 PST" name="tearDown" finished-at="2025-04-08T08:21:41 PST" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vehuelFinalAct.CheckoutProcess@175b9425]" started-at="2025-04-08T08:21:41 PST" name="launchApplication" finished-at="2025-04-08T08:21:44 PST" duration-ms="2462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="missingPassword()[pri:6, instance:vehuelFinalAct.CheckoutProcess@175b9425]" started-at="2025-04-08T08:21:44 PST" name="missingPassword" finished-at="2025-04-08T08:21:44 PST" duration-ms="477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- missingPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vehuelFinalAct.CheckoutProcess@175b9425]" started-at="2025-04-08T08:21:44 PST" name="tearDown" finished-at="2025-04-08T08:21:44 PST" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vehuelFinalAct.CheckoutProcess@175b9425]" started-at="2025-04-08T08:21:44 PST" name="launchApplication" finished-at="2025-04-08T08:21:47 PST" duration-ms="2434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="missingZipCode()[pri:7, instance:vehuelFinalAct.CheckoutProcess@175b9425]" started-at="2025-04-08T08:21:47 PST" name="missingZipCode" finished-at="2025-04-08T08:21:47 PST" duration-ms="495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- missingZipCode -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vehuelFinalAct.CheckoutProcess@175b9425]" started-at="2025-04-08T08:21:47 PST" name="tearDown" finished-at="2025-04-08T08:21:47 PST" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vehuelFinalAct.CheckoutProcess@175b9425]" started-at="2025-04-08T08:21:47 PST" name="launchApplication" finished-at="2025-04-08T08:21:50 PST" duration-ms="2400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="onlyUsernameFilled()[pri:8, instance:vehuelFinalAct.CheckoutProcess@175b9425]" started-at="2025-04-08T08:21:50 PST" name="onlyUsernameFilled" finished-at="2025-04-08T08:21:50 PST" duration-ms="452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onlyUsernameFilled -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vehuelFinalAct.CheckoutProcess@175b9425]" started-at="2025-04-08T08:21:50 PST" name="tearDown" finished-at="2025-04-08T08:21:50 PST" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vehuelFinalAct.CheckoutProcess@175b9425]" started-at="2025-04-08T08:21:50 PST" name="launchApplication" finished-at="2025-04-08T08:21:53 PST" duration-ms="2628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="onlyPasswordFilled()[pri:9, instance:vehuelFinalAct.CheckoutProcess@175b9425]" started-at="2025-04-08T08:21:53 PST" name="onlyPasswordFilled" finished-at="2025-04-08T08:21:53 PST" duration-ms="465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onlyPasswordFilled -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vehuelFinalAct.CheckoutProcess@175b9425]" started-at="2025-04-08T08:21:53 PST" name="tearDown" finished-at="2025-04-08T08:21:54 PST" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vehuelFinalAct.CheckoutProcess@175b9425]" started-at="2025-04-08T08:21:54 PST" name="launchApplication" finished-at="2025-04-08T08:21:56 PST" duration-ms="2608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="onlyZipCodeFilled()[pri:10, instance:vehuelFinalAct.CheckoutProcess@175b9425]" started-at="2025-04-08T08:21:56 PST" name="onlyZipCodeFilled" finished-at="2025-04-08T08:21:57 PST" duration-ms="492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onlyZipCodeFilled -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vehuelFinalAct.CheckoutProcess@175b9425]" started-at="2025-04-08T08:21:57 PST" name="tearDown" finished-at="2025-04-08T08:21:57 PST" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vehuelFinalAct.CheckoutProcess@175b9425]" started-at="2025-04-08T08:21:57 PST" name="launchApplication" finished-at="2025-04-08T08:21:59 PST" duration-ms="2687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="allFieldsFilled()[pri:11, instance:vehuelFinalAct.CheckoutProcess@175b9425]" started-at="2025-04-08T08:21:59 PST" name="allFieldsFilled" finished-at="2025-04-08T08:22:00 PST" duration-ms="521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allFieldsFilled -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vehuelFinalAct.CheckoutProcess@175b9425]" started-at="2025-04-08T08:22:00 PST" name="tearDown" finished-at="2025-04-08T08:22:00 PST" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- vehuelFinalAct.CheckoutProcess -->
+      <class name="vehuelFinalAct.LoginPage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:vehuelFinalAct.LoginPage@610f7aa]" started-at="2025-04-08T08:22:19 PST" name="setup" finished-at="2025-04-08T08:22:19 PST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vehuelFinalAct.LoginPage@610f7aa]" started-at="2025-04-08T08:22:19 PST" name="launchApplication" finished-at="2025-04-08T08:22:21 PST" duration-ms="2498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="displayedLogin()[pri:0, instance:vehuelFinalAct.LoginPage@610f7aa]" started-at="2025-04-08T08:22:21 PST" name="displayedLogin" finished-at="2025-04-08T08:22:21 PST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayedLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vehuelFinalAct.LoginPage@610f7aa]" started-at="2025-04-08T08:22:21 PST" name="tearDown" finished-at="2025-04-08T08:22:21 PST" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vehuelFinalAct.LoginPage@610f7aa]" started-at="2025-04-08T08:22:21 PST" name="launchApplication" finished-at="2025-04-08T08:22:24 PST" duration-ms="2603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="incorrectPassword()[pri:0, instance:vehuelFinalAct.LoginPage@610f7aa]" started-at="2025-04-08T08:22:24 PST" name="incorrectPassword" finished-at="2025-04-08T08:22:24 PST" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incorrectPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vehuelFinalAct.LoginPage@610f7aa]" started-at="2025-04-08T08:22:24 PST" name="tearDown" finished-at="2025-04-08T08:22:24 PST" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vehuelFinalAct.LoginPage@610f7aa]" started-at="2025-04-08T08:22:24 PST" name="launchApplication" finished-at="2025-04-08T08:22:27 PST" duration-ms="2586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="incorrectUsername()[pri:0, instance:vehuelFinalAct.LoginPage@610f7aa]" started-at="2025-04-08T08:22:27 PST" name="incorrectUsername" finished-at="2025-04-08T08:22:27 PST" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incorrectUsername -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vehuelFinalAct.LoginPage@610f7aa]" started-at="2025-04-08T08:22:27 PST" name="tearDown" finished-at="2025-04-08T08:22:27 PST" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vehuelFinalAct.LoginPage@610f7aa]" started-at="2025-04-08T08:22:27 PST" name="launchApplication" finished-at="2025-04-08T08:22:30 PST" duration-ms="2637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="lockedAccount()[pri:0, instance:vehuelFinalAct.LoginPage@610f7aa]" started-at="2025-04-08T08:22:30 PST" name="lockedAccount" finished-at="2025-04-08T08:22:30 PST" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lockedAccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vehuelFinalAct.LoginPage@610f7aa]" started-at="2025-04-08T08:22:30 PST" name="tearDown" finished-at="2025-04-08T08:22:30 PST" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vehuelFinalAct.LoginPage@610f7aa]" started-at="2025-04-08T08:22:30 PST" name="launchApplication" finished-at="2025-04-08T08:22:32 PST" duration-ms="2532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="missingPassword()[pri:0, instance:vehuelFinalAct.LoginPage@610f7aa]" started-at="2025-04-08T08:22:32 PST" name="missingPassword" finished-at="2025-04-08T08:22:33 PST" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- missingPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vehuelFinalAct.LoginPage@610f7aa]" started-at="2025-04-08T08:22:33 PST" name="tearDown" finished-at="2025-04-08T08:22:33 PST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vehuelFinalAct.LoginPage@610f7aa]" started-at="2025-04-08T08:22:33 PST" name="launchApplication" finished-at="2025-04-08T08:22:35 PST" duration-ms="2713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="missingUsername()[pri:0, instance:vehuelFinalAct.LoginPage@610f7aa]" started-at="2025-04-08T08:22:35 PST" name="missingUsername" finished-at="2025-04-08T08:22:36 PST" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- missingUsername -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vehuelFinalAct.LoginPage@610f7aa]" started-at="2025-04-08T08:22:36 PST" name="tearDown" finished-at="2025-04-08T08:22:36 PST" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vehuelFinalAct.LoginPage@610f7aa]" started-at="2025-04-08T08:22:36 PST" name="launchApplication" finished-at="2025-04-08T08:22:38 PST" duration-ms="2586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="successLogin()[pri:0, instance:vehuelFinalAct.LoginPage@610f7aa]" started-at="2025-04-08T08:22:38 PST" name="successLogin" finished-at="2025-04-08T08:22:38 PST" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vehuelFinalAct.LoginPage@610f7aa]" started-at="2025-04-08T08:22:38 PST" name="tearDown" finished-at="2025-04-08T08:22:38 PST" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- vehuelFinalAct.LoginPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
